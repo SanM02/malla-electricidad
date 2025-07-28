@@ -1,0 +1,133 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: purple;
+  margin-top: 20px;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 4px;
+  padding: 4px;
+/* Modo oscuro institucional FPUNA */
+:root {
+  --fpuna-blue: #003366;
+  --fpuna-yellow: #FFD600;
+  --fpuna-light: #f5f6fa;
+  --fpuna-dark: #181c24;
+  --fpuna-white: #fff;
+  --fpuna-gray: #222;
+}
+
+.dark-mode {
+  background: var(--fpuna-dark) !important;
+  color: var(--fpuna-yellow) !important;
+}
+
+.dark-mode body {
+  background: var(--fpuna-dark) !important;
+  color: var(--fpuna-yellow) !important;
+}
+
+.dark-mode h1, .dark-mode h2 {
+  color: var(--fpuna-yellow) !important;
+}
+
+.dark-mode .year, .dark-mode .semestre, .dark-mode .materia {
+  background: var(--fpuna-gray) !important;
+  color: var(--fpuna-yellow) !important;
+  border-color: var(--fpuna-yellow) !important;
+}
+
+.dark-mode .btn, .dark-mode button {
+  background: var(--fpuna-blue) !important;
+  color: var(--fpuna-yellow) !important;
+  border-left: 5px solid var(--fpuna-yellow) !important;
+}
+
+.dark-mode .btn-secondary {
+  background: var(--fpuna-yellow) !important;
+  color: var(--fpuna-blue) !important;
+}
+
+.dark-mode .stats, .dark-mode .controls, .dark-mode .progress-container {
+  background: var(--fpuna-gray) !important;
+  color: var(--fpuna-yellow) !important;
+}
+
+.dark-mode .progress-bar {
+  background: var(--fpuna-blue) !important;
+}
+
+.dark-mode .progress-fill {
+  background: linear-gradient(135deg, var(--fpuna-yellow), var(--fpuna-blue)) !important;
+}
+
+.dark-mode .materia.completada {
+  background: linear-gradient(135deg, #2e7d32, #222) !important;
+  color: var(--fpuna-yellow) !important;
+  border-color: var(--fpuna-yellow) !important;
+}
+
+.dark-mode .materia.bloqueada {
+  background: #333 !important;
+  color: #888 !important;
+  border-color: #333 !important;
+}
+
+/* Puedes alternar el modo oscuro agregando o quitando la clase 'dark-mode' al <body> o <html> */
+  gap: 20px;
+  padding: 20px;
+}
+
+.year {
+  flex: 0 0 auto;
+  width: 150px;
+  scroll-snap-align: start;
+  border-radius: 5px;
+}
+
+h2 {
+  color: purple;
+}
+
+.semester {
+  margin: 3px;
+  border: 1px solid #c19ff0;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.pink {
+  background-color: #ffe4f1;
+}
+
+.purple {
+  background-color: #f3d9ff;
+}
+
+button {
+  display: block;
+  margin: 3px auto;
+  padding: 4px;
+  width: 80%;
+  background-color: white;
+  border: none;
+  border-left: 3px solid purple;
+  border-radius: 5px;
+  font-weight: bold;
+  color: purple;
+}
+
+button.disabled {
+  background-color: lightgray;
+  color: gray;
+  text-decoration: line-through;
+}
