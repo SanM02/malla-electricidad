@@ -38,6 +38,22 @@
   background: var(--fpuna-gray) !important;
   color: var(--fpuna-yellow) !important;
 }
+
+/* Mejorar visibilidad de los números y etiquetas de estadísticas en modo oscuro */
+.dark-mode .stat-number {
+  color: #fffde7 !important;
+  text-shadow: 0 1px 6px #000a, 0 0px 1px #ffd600cc;
+}
+.dark-mode .stat-label {
+  color: #ffe066 !important;
+  text-shadow: 0 1px 4px #000a;
+}
+
+/* Mejorar visibilidad del subtítulo de la barra de progreso en modo oscuro */
+.dark-mode .progress-text {
+  color: #fffde7 !important;
+  text-shadow: 0 1px 6px #000a, 0 0px 1px #ffd600cc;
+}
 .dark-mode .btn, .dark-mode button {
   background: var(--fpuna-blue) !important;
   color: var(--fpuna-yellow) !important;
@@ -51,6 +67,13 @@
   background: var(--fpuna-gray) !important;
   color: var(--fpuna-yellow) !important;
   border-color: var(--fpuna-yellow) !important;
+}
+
+/* Mejorar visibilidad de los títulos de semestre en modo oscuro */
+.dark-mode .semestre h3 {
+  color: #fffde7 !important;
+  text-shadow: 0 1px 6px #000a, 0 0px 1px #ffd600cc;
+  font-weight: 700 !important;
 }
 .dark-mode .progress-bar {
   background: var(--fpuna-blue) !important;
@@ -535,3 +558,4 @@ h2 {
     color: #1a237e;
   }
 }
+
