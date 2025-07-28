@@ -1,13 +1,14 @@
-# 🏥 Malla Curricular Interactiva - Medicina UDELAR
+
+# ⚡ Malla Curricular Interactiva - Ingeniería en Electricidad FPUNA
 
 <div align="center">
 
-![Medicina UDELAR](https://img.shields.io/badge/Medicina-UDELAR-800080?style=for-the-badge&logo=graduation-cap)
+![FPUNA](https://img.shields.io/badge/Ingenier%C3%ADa%20en%20Electricidad-FPUNA-003366?style=for-the-badge&logo=polymerproject&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-Una aplicación web interactiva para visualizar y rastrear el progreso académico en la carrera de Medicina de la Universidad de la República (UDELAR), Uruguay.
+Aplicación web interactiva para visualizar y gestionar el avance académico en la carrera de Ingeniería en Electricidad de la Facultad Politécnica - Universidad Nacional de Asunción (FPUNA), Paraguay.
 
 [🚀 Demo en Vivo](#) | [📖 Documentación](#documentación) | [🐛 Reportar Bug](../../issues)
 
@@ -429,17 +430,18 @@ SOFTWARE.
 
 ---
 
+
 ## 👥 Créditos
 
 ### 🎓 Desarrollado para
 
-- **Universidad de la República (UDELAR)**
-- **Facultad de Medicina**
-- **Estudiantes de Medicina de Uruguay**
+- **Facultad Politécnica - Universidad Nacional de Asunción (FPUNA)**
+- **Carrera de Ingeniería en Electricidad**
+- **Estudiantes y docentes de la FPUNA**
 
 ### 💝 Agradecimientos
 
-- **UDELAR** por la información de la malla curricular
+- **FPUNA** por la información oficial de la malla curricular
 - **Comunidad de estudiantes** por feedback y sugerencias
 - **Contribuidores** que han mejorado el proyecto
 
@@ -447,8 +449,8 @@ SOFTWARE.
 
 - **Iconos**: Emojis nativos del sistema
 - **Fuentes**: System fonts para mejor rendimiento
-- **Colores**: Paleta oficial de UDELAR
-- **Inspiración**: Necesidad real de estudiantes de medicina
+- **Colores**: Paleta institucional FPUNA
+- **Inspiración**: Necesidad real de estudiantes de ingeniería
 
 ---
 
@@ -456,8 +458,8 @@ SOFTWARE.
 
 ### 🔗 Enlaces Importantes
 
-- **🏠 Página Principal**: [Medicina UDELAR](https://www.fmed.edu.uy/)
-- **📚 Plan de Estudios**: [Plan Oficial](https://www.fmed.edu.uy/estudiar/grado/doctor-en-medicina)
+- **🏠 Página Principal**: [FPUNA](https://www.fpuna.edu.py/)
+- **📚 Plan de Estudios**: [Plan Oficial Electricidad](https://www.fpuna.edu.py/carreras/ingenieria-en-electricidad)
 - **💬 Discusiones**: [GitHub Discussions](../../discussions)
 - **🐛 Issues**: [Reportar Problemas](../../issues)
 
@@ -472,23 +474,20 @@ Para consultas específicas sobre el proyecto:
 
 ## 📈 Roadmap y Futuras Mejoras
 
-### 🚀 Versión 1.1 (Próxima)
+### 🚀 Próximas versiones
 
 - [ ] **🌙 Modo Oscuro**: Tema dark/light switcheable
-- [ ] **📱 PWA**: Convertir en Progressive Web App
+- [ ] **📱 PWA**: Soporte para Progressive Web App
 - [ ] **🔔 Notificaciones**: Recordatorios de materias
-- [ ] **📊 Analytics**: Estadísticas avanzadas de progreso
+- [ ] **📊 Estadísticas avanzadas**: Métricas y visualizaciones
 
-### 🔮 Versión 2.0 (Futuro)
+### 🔮 Ideas Futuras
 
-- [ ] **👥 Multi-usuario**: Soporte para múltiples estudiantes
-- [ ] **☁️ Sincronización**: Backup en la nube
-- [ ] **🎯 Recomendaciones**: IA para sugerir próximas materias
-- [ ] **📅 Calendario**: Integración con fechas de inscripción
-
-### 💡 Ideas en Consideración
-
-- **🏆 Gamificación**: Logros y badges por progreso
+- **👥 Multi-usuario**: Soporte para múltiples estudiantes
+- **☁️ Sincronización**: Backup en la nube
+- **🎯 Recomendaciones**: Sugerencias de materias
+- **📅 Calendario**: Integración con fechas académicas
+- **🏆 Gamificación**: Logros y badges
 - **📱 App Móvil**: Aplicación nativa
 - **🔗 Integración**: Conexión con sistemas oficiales
 - **🎨 Temas**: Múltiples esquemas de color
@@ -500,11 +499,12 @@ Para consultas específicas sobre el proyecto:
 
 **⭐ Si este proyecto te es útil, dale una estrella en GitHub ⭐**
 
-**🎓 ¡Éxitos en tu carrera de Medicina! 🎓**
+**🎓 ¡Éxitos en tu carrera de Ingeniería en Electricidad! ⚡**
 
 ---
 
-*Hecho con ❤️ para los estudiantes de Medicina de la UDELAR*
+*Hecho con ❤️ para los estudiantes de la FPUNA*
 
 </div>
-# malla-electricidad
+
+*** End Patch
